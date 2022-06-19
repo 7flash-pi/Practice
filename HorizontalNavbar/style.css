@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fColor:#fff;
+    --bColor:#000;
+}
+
+.container
+{
+    background-color: var(--fColor);
+    color: var(--bColor);
+    width: 35vh;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+}
+.nav-header img
+{
+    width: 8em;
+    height: 5em;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px;
+}
+.list-icons
+{
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 1em 0 2em;
+   
+}
+.list-icons li{
+    list-style: none;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.active
+{
+    background-color:rgb(65, 65, 244) ;
+    color: var(--fColor);
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.list-icons li:hover{
+    background-color: rgb(65, 65, 244);
+    color: var(--fColor);
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+
+}
+
+.social-icons
+{
+    display: inline-block;
+    justify-content: center;
+    margin: 3em 2em;
+    
+}
+.social-icons img{
+    width:2em;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+.social-icons img:hover{
+        border-radius: 50%;
+        width: 4em;
+     
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+}
+.last
+{
+    margin-bottom: 3em;
+}
+span{
+    display: flex;
+    justify-content: center;
+    
+}
