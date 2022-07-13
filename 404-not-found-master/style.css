@@ -85,9 +85,34 @@ p{
         height: 50%;
         width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
+    }
+    .hero-container h1 {
+        width: 90%;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Space Mono';
+        display: flex;
+        margin: 0px auto;
+
+
+    }
+    .hero-container p {
+        font-family: Space Mono;
+        width: 70%;
+        margin: 20px auto;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+
+    }
+    .hero-container button {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        text-transform: uppercase;
+        margin: 0px auto;
     }
 
 }
