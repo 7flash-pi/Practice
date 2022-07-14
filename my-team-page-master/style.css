@@ -36,8 +36,29 @@
    
 }
 .img-container img {
-    width: 240px;
-    height: 420px;
+    width: 220px;
+    height: 380px;
     margin-left: 50px;
     margin-top: 90px;
+}
+.second , .fifth{
+    margin-top: 100px;
+
+}
+.info{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+
+    
+}
+.info span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.first , .second , .third , .forth , .fifth , .sixth{
+    width: 100%;
+    height: 100%;
 }
